@@ -146,7 +146,8 @@ def problem3a(window, point, n):
     #    DIFFICULTY:      7 or 8
     #    TIME ESTIMATE:   20 to 35 minutes.
     # -------------------------------------------------------------------------
-
+    for k in range(n):
+        line=rg.Line(point,rg.Point(point.x+20*k,point.y+50+10*k))
 
 def run_test_problem3b():
     """ Tests the   problem3b   function. """
